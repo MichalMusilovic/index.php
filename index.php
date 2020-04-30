@@ -52,6 +52,60 @@ and open the template in the editor.
         var_dump ($a || $b);
         var_dump ($a && $b);
         var_dump (!$a);
-        ?>
+   
+        $MichalMusil1=1;
+        $MichalMusil2=2;
+        if (1>2) {
+        echo "MichaMusil";
+        }
+        if (1<2) {
+        echo "Michal";
+        } else {
+        echo "Musil";
+        }
+        
+        if ($MichalMusil1===1) {
+        if ($MichalMusil2===2) {
+            echo "Michal";
+        }
+        } else {
+            echo "Musil";
+        }
+            
+         switch ($MichalMusil1){
+            case 0;
+            echo"0";
+            break;
+            case 1;
+            echo "1"; 
+            break;
+            case 2;
+            echo "2";
+            break;
+            case 3;
+            echo "3";
+            break;
+            case 4;
+            echo "4";
+            break;
+            case 5;
+            echo "5";
+            break;
+            case 6;
+            echo "6";
+            break;
+            }
+            
+            $produkt = array("pes","kočka","auto","kolo","světlo","letadlo","obojek","podkova","nůž","zbraň");
+            var_dump ($produkt);
+
+
+
+
+
+
+
+        
+        ?>        
     </body>
 </html>
