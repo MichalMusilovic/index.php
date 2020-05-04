@@ -99,7 +99,10 @@ and open the template in the editor.
             $produkt = array("pes","kočka","auto","kolo","světlo","letadlo","obojek","podkova","nůž","zbraň");
             var_dump ($produkt);
 
-
+            include ("C:\wamp64\www\phpecko/tracy.phar");
+            
+            use Tracy\Debugger;
+            Debugger::enable();
 
 
 
