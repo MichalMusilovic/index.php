@@ -103,7 +103,24 @@ and open the template in the editor.
             
             use Tracy\Debugger;
             Debugger::enable();
-
+            
+            for ($SloupecMichalMusil=0; $SloupecMichalMusil <17; $SloupecMichalMusil++) {
+            
+            for ($RadekMichalMusil=0; $RadekMichalMusil <7; $RadekMichalMusil++){  
+            }
+           }
+           floor($cenik);
+           round($cenik);
+           
+          
+          $věc = array ("auto", "pes", "kolo");
+           var_dump ($věc);
+          shuffle ($věc);
+          
+          join($cenovka, $věc);
+          explode($cenovka, $jmeno);
+          
+   
 
 
 
